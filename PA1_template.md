@@ -221,5 +221,7 @@ Are there differences in activity patterns between weekdays and weekends?
          ylab = "Average # of Steps",col="blue")
 ```
 
-<img src="PA1_template_files/figure-markdown_github/unnamed-chunk-12-1.png" style="display: block; margin: auto;" /> *Maximum number of steps in a 5-min interval (Weekday) = 230.38*
+<img src="PA1_template_files/figure-markdown_github/unnamed-chunk-12-1.png" style="display: block; margin: auto;" />
+
+*Maximum number of steps in a 5-min interval (Weekday) = 230.38*
 *Maximum number of steps in a 5-min interval (Weekend) = 166.64*

@@ -2,7 +2,7 @@
 title: "PA1_template.Rmd"
 author: "John Joyce"
 date: "September 3, 2017"
-output: github_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -190,6 +190,7 @@ Are there differences in activity patterns between weekdays and weekends?
     plot(mean_steps_by_interval_weekday_df$interval,mean_steps_by_interval_weekend_df$imputed.value,type="l",
          main="Average # of Steps by Interval - Weekend",ylim=c(0,210),xlab = "Interval",
          ylab = "Average # of Steps",col="blue")
-```  
-*Maximum number of steps in a 5-min interval (Weekday) =    `r round(max(mean_steps_by_interval_weekday_df$imputed.value),digits=2)`*  
+```
+
+*Maximum number of steps in a 5-min interval (Weekday) =    `r round(max(mean_steps_by_interval_weekday_df$imputed.value),digits=2)`*   
 *Maximum number of steps in a 5-min interval (Weekend) =    `r round(max(mean_steps_by_interval_weekend_df$imputed.value),digits=2)`*  
