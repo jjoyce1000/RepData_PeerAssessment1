@@ -2,7 +2,7 @@
 title: "PA1_template.Rmd"
 author: "John Joyce"
 date: "September 3, 2017"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
